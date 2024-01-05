@@ -1,0 +1,41 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+/* nav css */
+.text-praimary{
+    color: purple;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-titel{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btn-praimary{
+    border-radius: 5px;
+    background-color: purple;
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+}
