@@ -11,6 +11,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-titel{
     color: black;
@@ -38,4 +39,168 @@ nav a{
     font-weight: 700;
     font-size: 20px;
     padding: 15px 35px;
+}
+/* header styles */
+.header{
+    background-color: rgb(248, 229, 248);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-con{
+    max-height: 500px;
+}
+.profile-pic{
+    width: 500px;
+    /* padding-left: 340px; */
+    /* padding-bottom: 0px; */
+}
+.banner-wc{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-titel{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* about */
+.about{
+    padding: 100px;
+    margin: 130px ;
+    background-color:rgb(248, 229, 248) ;
+    border-radius: 10px;
+}
+.about-titel{
+
+color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+
+}
+.about-dis{
+color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-titel{
+    font-size: 16px;
+    font-weight: 100;
+}
+.info-titel-dis{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.what-do-dis{
+    padding: 30px 150px;
+    text-align: center;
+}
+.what-do-titel{
+    text-align: center;
+    font-size: 30px;
+}
+.skill-con{
+    display: flex;
+    gap: 25px;
+}
+.skills{
+    padding: 30px;
+    background-color: papayawhip;
+    box-shadow: 0px 6px 50px 0px grey;
+}
+.rsumi-titei{
+    text-align: center;
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resumi-clum-titel{
+    color:  #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+.resumi-container{
+    display: flex;
+    gap: 50px;
+}
+.resumi-item-dis{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.resumi-item-institute{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.resumi-item-titel{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+.foot-titel{
+    text-align: center;
+}
+.foot-form{
+    text-align: center;
+}
+.foot-con{
+    display: flex;
+    padding: 130px 230px;
+}
+.foot-dis{
+    
+
 }
